@@ -1,0 +1,334 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Netflix Font', sans-serif;
+}
+/*part1*/
+.nav-logo-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    right: 90px;
+}
+.Signinbtn{
+    background-color: #E50914;
+    height: 40px;
+    color: white;
+    width: 80px;
+    border-radius: 8px;
+    position: relative;
+    left: 90px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Signinbtn:hover{
+    border: 2px solid white;
+    background-color: #a00a11;
+}
+.img-bg{
+    height: 800px;
+    background-image: linear-gradient(rgba(10, 9, 9, 0.7), rgba(0,0,0,1)),url(background.jpg);
+    background-size: cover;
+}
+/*part2*/
+
+.writing-after{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+}
+.h-h1{
+    font-size: 50px;
+    margin-top: 60px;
+}
+.h-p1{
+    margin-top: 30px;
+    font-size: 25px
+}
+.h-h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.ip-mail{
+    height: 68px;
+    width: 500px;
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    border: 2px solid #E50914;
+    border-radius: 7px;
+}
+
+.btn-getstart{
+    margin-top: 15px;
+    height: 70px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: #E50914;
+    color: white;
+    font-size: large;
+}
+
+.btn-getstart:hover{
+    border: 2px solid white;
+    background-color: #a00a11;
+}
+/*second part*/
+.row{
+    border: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.text{
+    padding-top: 40px;
+    font-size: 30px;
+    color: white;
+}
+.p-in-h{
+    padding-top: 20px;
+    font-size: 22px;
+}
+/*third part*/
+.row-2{
+    border: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.text-2{
+    padding-top: 40px;
+    font-size: 30px;
+    
+}
+.p-in-h-02{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+/*fourth part*/
+.row-3{
+    color: white;
+    border: 3px solid gray;
+    display: flex;
+    justify-content: left;
+    padding-left: 200px;
+    align-items: center;
+    background-color: black;
+}
+.text-3{
+    padding-top: 40px;
+    font-size: 30px;
+    
+}
+.p-in-h-03{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+/*5th part*/
+.row-4{
+    border: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.text-4{
+    padding-top: 40px;
+    font-size: 30px;
+    
+}
+.p-in-h-04{
+    padding-top: 20px;
+    font-size: 22px;
+}
+.questions{
+    padding-top: 30px;
+    border-top: 3px solid grey;
+    background-color: black;
+    color: white;
+}
+.ques{
+    text-align: center;
+}
+.box{
+    position: relative;
+    left:100px;
+}
+.q11{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q12{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q13{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q14{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q15{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q16{
+    padding-top: 30px;
+    margin-top: 10px;
+    background-color: rgb(58, 57, 57);
+    height: 50px;
+    font-size: 20px;
+    width:1200px;
+    
+}
+.q11:hover{
+    background-color: grey;
+}
+.q12:hover{
+    background-color: grey;
+}
+.q13:hover{
+    background-color: grey;
+}
+.q14:hover{
+    background-color: grey;
+}
+.q15:hover{
+    background-color: grey;
+}
+.q16:hover{
+    background-color: grey;
+}
+
+
+/*footer*/
+.mailing{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+.input{
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #E50914;
+    border-radius: 8px;
+}
+
+.btn-start{
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 60px;
+    width: 180px;
+    background-color: #E50914;
+    color: white;
+    font-size: large;
+}
+
+.btn-start:hover{
+    border: 2px solid white;
+    background-color: #a00a11;
+}
+/*footer contact us*/
+.contact{
+    padding-top: 30px;
+    border-top: 3px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+a{
+        padding-top: 20px;
+        display: block;
+        text-decoration:  line white;
+        color: rgba(255, 255, 255, 0.842)
+}
+.lang{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+.LAN{
+    
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+select{
+   height: 40px;
+   width: 100px;
+   font-size: 15px;
+   border-radius: 7px;
+    background-color: transparent;
+    color: white;
+}
+option{
+    background-color: black;
+}
+
+/*.line1 a{
+    display: block;
+    text-decoration:  line white;
+    color: white;
+}
+.line2 a{
+    display: block;
+    text-decoration: line white;
+    color: white;
+}
+.line3 a{
+    display: block;
+    text-decoration:  line white;
+    color: white;
+}
+.line4 a{
+    display: block;
+    text-decoration: line white;
+    color: white;
+}*/
